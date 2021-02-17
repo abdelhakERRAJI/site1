@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Ma Première page </title>
+    </head>
+    <body>
+        <center><H1>Inscription des Etudiants</H1></center>
+    <form action="destination2.php" method="POST" name="f1">
+        CIN: <input type="text" name="cin"/><br>
+        Nom: <input type="text" name="nom"/><br>
+        Prenom: <input type="text" name="prenom"/><br>
+        email: <input type="email" name="email"/><br>
+        Date de naissance: <input type="date" name="dn"/><br>
+        Adresse: <textarea name="adresse" > </textarea>
+        <br>
+        Telephone: <input type="tel" name="tele"/><br>
+        Niveau Scolaire: <select name="niveau">
+            <option value="1annee">1ere annee</option>
+            <option value="2annee">2eme annee</option>
+        </select><br>
+        Sexe :Homme <input type="radio" name="sexe" value="Homme">
+        Femme <input type="radio" name="sexe" value="Femme">
+        
+        <br>
+
+    <input type="submit" value="Envoyer" name="b1">
+    </form>
+    </body>
+</html>
